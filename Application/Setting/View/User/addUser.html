@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#submit").click(function() {
+		check = true;
+		name = $("#name").val();
+		if (!name) {
+			$("#checkName").html("姓名不能为空");
+			check = false;
+		} else {
+			$("#checkName").html("");
+		}
+		sex = $("#sex").val();
+		if (!sex) {
+			$("#checkSex").html("性别不能为空");
+			check = false;
+		} else {
+			$("#checkSex").html("");
+		}
+		dateBirth = $("#dateBirth").val();
+		if (!dateBirth) {
+			$("#checkDateBirth").html("出生日期不能为空");
+			check = false;
+		} else {
+			$("#checkDateBirth").html("");
+		}
+		identity = $("#identity").val();
+		if (!identity) {
+			$("#checkIdentity").html("身份证号码不能为空");
+			check = false;
+		} else {
+			$("#checkIdentity").html("");
+		}
+		tel = $("#tel").val();
+		if (!tel) {
+			$("#checkTel").html("电话不能为空");
+			check = false;
+		} else {
+			$("#checkTel").html("");
+		}
+		nation = $("#nation").val();
+		origin = $("#origin").val();
+		if (!check) {
+			return;
+		}
+		$.ajax({
+			url : "{:U('/API/admin/addAdmin')}",
+			async : true,
+			type : "POST",
+			dataType:"json",
+			data : {
+				name : name,
+				sex : sex,
+				dateBirth : dateBirth,
+				identity : identity,
+				tel : tel,
+				nation : nation,
+				origin : origin
+			},
+			success : function(result) {
+				if(result.status != "ok"){
+					alert("失败");
+					return;
+				}
+				alert("成功");
+				history.go(0);
+			},
+			error : function(XMLHttpRequest, textStatus, errorThrown) {
+				alert("失败");
+				return;
+			},
+		});
+	});
+});
+</script>
+</head>
+<body>
+	<div>
+		<form>
+			<table>
+				<tr>
+					<td>姓名:</td>
+					<td><input type="text" id="name" /><span id="checkName"></span></td>
+				</tr>
+				<tr>
+					<td>性别:</td>
+					<td><select id="sex">
+							<option value="">请选择……</option>
+							<option value="男">男</option>
+							<option value="女">女</option>
+					</select><span id="checkSex"></span></td>
+				</tr>
+				<tr>
+					<td>出生日期:</td>
+					<td><input type="date" id="dateBirth" /><span
+						id="checkDateBirth"></span></td>
+				</tr>
+				<tr>
+					<td>身份证号码:</td>
+					<td><input type="text" id="identity" /><span
+						id="checkIdentity"></span></td>
+				</tr>
+				<tr>
+					<td>电话号码:</td>
+					<td><input type="text" id="tel" /><span id="checkTel"></span></td>
+				</tr>
+				<tr>
+					<td>民族:</td>
+					<td><input type="text" id="nation" /></td>
+				</tr>
+				<tr>
+					<td>籍贯:</td>
+					<td><input type="text" id="origin" /></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="button" id="submit" value="确定" /><input
+						type="reset" value="重置" /></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

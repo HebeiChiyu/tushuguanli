@@ -1,0 +1,414 @@
+[ 2017-04-27T08:52:22+08:00 ] ::1 /tushuguanli/API/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-27T08:52:34+08:00 ] ::1 /tushuguanli/API/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `book_admin` WHERE `login` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin_classified` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `book_admin_classified` WHERE `admin` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: statusLock D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\LoginController.class.php 第 29 行.
+SQL: UPDATE `book_admin` SET `code`='fa40b3850046b362217c121a274720fd' WHERE `id` = 1 [ RunTime:0.0460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-04-27T08:54:18+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-27T08:54:49+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\AdminController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0030s ]
+SQL: INSERT INTO `book_admin` (`name`,`sex`,`dateBirth`,`identity`,`tel`,`nation`,`origin`) VALUES ('qsdf','男','2017-04-04','111111111111111111','13903315528','qsdf','qsdf') [ RunTime:0.0670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-04-27T08:55:17+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\AdminController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0030s ]
+SQL: INSERT INTO `book_admin` (`name`,`sex`,`dateBirth`,`identity`,`tel`,`nation`,`origin`) VALUES ('qsdf','男','2017-04-04','111111111111111111','13903315528','qsdf','qsdf') [ RunTime:0.0510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-27T08:55:17+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\AdminController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0030s ]
+SQL: INSERT INTO `book_admin` (`name`,`sex`,`dateBirth`,`identity`,`tel`,`nation`,`origin`) VALUES ('qsdf','男','2017-04-04','111111111111111111','13903315528','qsdf','qsdf') [ RunTime:0.0560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-27T08:55:19+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\AdminController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: INSERT INTO `book_admin` (`name`,`sex`,`dateBirth`,`identity`,`tel`,`nation`,`origin`) VALUES ('qsdf','男','2017-04-04','111111111111111111','13903315528','qsdf','qsdf') [ RunTime:0.0510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-04-27T08:55:25+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\AdminController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0030s ]
+SQL: INSERT INTO `book_admin` (`name`,`sex`,`dateBirth`,`identity`,`tel`,`nation`,`origin`) VALUES ('qsdf','男','2017-04-04','111111111111111111','13903315528','qsdf','qsdf') [ RunTime:0.0540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-27T08:56:10+08:00 ] ::1 /tushuguanli/API/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-27T08:56:18+08:00 ] ::1 /tushuguanli/API/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_admin` WHERE `login` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin_classified` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book_admin_classified` WHERE `admin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: statusLock D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\LoginController.class.php 第 29 行.
+SQL: UPDATE `book_admin` SET `code`='5d616dd38211ebb5d6ec52986674b6e4' WHERE `id` = 1 [ RunTime:0.0790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-27T08:56:34+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\AdminController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0040s ]
+SQL: INSERT INTO `book_admin` (`name`,`sex`,`dateBirth`,`identity`,`tel`,`nation`,`origin`) VALUES ('qsdf','女','2017-04-05','111111111111111111','13903315528','qsdf','sqdf') [ RunTime:0.0560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-27T08:57:31+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\AdminController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: INSERT INTO `book_admin` (`name`,`sex`,`dateBirth`,`identity`,`tel`,`nation`,`origin`) VALUES ('sdf','男','2017-03-30','130102198902142117','13903315528','','') [ RunTime:0.0520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-04-27T08:57:52+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\AdminController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: INSERT INTO `book_admin` (`name`,`sex`,`dateBirth`,`identity`,`tel`,`nation`,`origin`) VALUES ('qsdf','男','2017-03-29','111111111111111111','13903315528','','') [ RunTime:0.0840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-27T08:57:59+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-27T09:08:50+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\AdminController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: INSERT INTO `book_admin` (`name`,`sex`,`dateBirth`,`identity`,`tel`,`nation`,`origin`) VALUES ('qsdf','男','2017-03-29','111111111111111111','13903315528','','') [ RunTime:0.0760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-27T09:27:34+08:00 ] ::1 /tushuguanli/API/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-27T09:27:41+08:00 ] ::1 /tushuguanli/API/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `book_admin` WHERE `login` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin_classified` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `book_admin_classified` WHERE `admin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: statusLock D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\LoginController.class.php 第 29 行.
+SQL: UPDATE `book_admin` SET `code`='5f0ad4db43d8723d18169b2e4817a160' WHERE `id` = 1 [ RunTime:0.0560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-27T09:27:51+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\AdminController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0030s ]
+SQL: INSERT INTO `book_admin` (`name`,`sex`,`dateBirth`,`identity`,`tel`,`nation`,`origin`) VALUES ('李源','男','2017-03-29','111111111111111111','13903315528','','') [ RunTime:0.0600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-27T09:29:38+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\AdminController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0030s ]
+SQL: INSERT INTO `book_admin` (`name`,`sex`,`dateBirth`,`identity`,`tel`,`nation`,`origin`) VALUES ('13903315528','男','2017-04-06','111111111111111111','13903315528','','') [ RunTime:0.0490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-27T09:31:27+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\AdminController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: INSERT INTO `book_admin` (`name`,`sex`,`dateBirth`,`identity`,`tel`,`nation`,`origin`) VALUES ('张三','男','2017-04-11','111111111111111111','13903315528','','') [ RunTime:0.0590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-27T09:31:52+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\AdminController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: INSERT INTO `book_admin` (`name`,`sex`,`dateBirth`,`identity`,`tel`,`nation`,`origin`) VALUES ('测试商品123','男','2017-04-12','111111111111111111','13903315528','','') [ RunTime:0.0470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-27T10:30:34+08:00 ] ::1 /tushuguanli/API/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-27T10:30:42+08:00 ] ::1 /tushuguanli/API/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `book_admin` WHERE `login` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_admin_classified` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_admin_classified` WHERE `admin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: statusLock D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\LoginController.class.php 第 29 行.
+SQL: UPDATE `book_admin` SET `code`='96055f5b06bf9381ac43879351642cf5' WHERE `id` = 1 [ RunTime:0.0870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-27T10:30:51+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\AdminController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: INSERT INTO `book_admin` (`name`,`sex`,`dateBirth`,`identity`,`tel`,`nation`,`origin`) VALUES ('sdf','男','2017-04-05','111111111111111111','13903315528','','') [ RunTime:0.0440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-27T10:31:14+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\AdminController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: INSERT INTO `book_admin` (`name`,`sex`,`dateBirth`,`identity`,`tel`,`nation`,`origin`) VALUES ('sdf','男','2017-04-05','111111111111111111','13903315528','','') [ RunTime:0.0770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-04-27T10:31:47+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\AdminController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: INSERT INTO `book_admin` (`name`,`sex`,`dateBirth`,`identity`,`tel`,`nation`,`origin`) VALUES ('qsdf','女','2017-04-28','130102198902142117','13903315528','','') [ RunTime:0.0640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-27T10:32:29+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\AdminController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: INSERT INTO `book_admin` (`name`,`sex`,`dateBirth`,`identity`,`tel`,`nation`,`origin`) VALUES ('qsf','男','2017-03-29','130102198902142117','13903315528','','') [ RunTime:0.0480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-27T10:32:49+08:00 ] ::1 /tushuguanli/API/admin/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: status D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\AdminController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0030s ]
+SQL: INSERT INTO `book_admin` (`name`,`sex`,`dateBirth`,`identity`,`tel`,`nation`,`origin`) VALUES ('bcvb','男','2017-04-05','130102198902142117','13903315528','','') [ RunTime:0.0530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-27T14:53:42+08:00 ] ::1 /tushuguanli/API/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-27T14:53:48+08:00 ] ::1 /tushuguanli/API/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_admin` WHERE `login` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin_classified` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_admin_classified` WHERE `admin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: statusLock D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\LoginController.class.php 第 29 行.
+SQL: UPDATE `book_admin` SET `code`='777669af68dbccabc30c3b6bcaa81825' WHERE `id` = 1 [ RunTime:0.2090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

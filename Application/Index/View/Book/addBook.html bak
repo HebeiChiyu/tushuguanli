@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		types = null;
+		presses = null;
+		libaries = null;
+		$.ajax({
+			url:"{:U('/API/Book/getListTypeAndPressAndlibary')}",
+			dataType:"json",
+			async : false,
+			type : "POST",
+			success : function(result) {
+				if(result.status == "ok"){
+					presses = result.press;
+					types = result.type;
+					libaries = result.libary;
+				}else{
+					alert("出版社列表获取失败");
+				}
+			},
+			error:function(XMLHttpRequest, textStatus, errorThrown){ 
+				alert("出版社列表获取失败");
+			}
+		});
+		$("#book").hide();
+		$("#magazine").hide();
+		$("#common").hide();
+		if(types){
+			for(i = 0;types[i];i++){
+				$("#type").append("<option value='"+types[i]['id']+"'>"+types[i]['name']+"</option>");
+			}
+		}
+		if(presses){
+			for(i = 0;presses[i];i++){
+				$("#press").append("<option value='"+presses[i]['id']+"'>"+presses[i]['name']+"</option>");
+			}
+		}
+		if(libaries){
+			for(i = 0;libaries[i];i++){
+				$("#libary").append("<option value='"+libaries[i]['id']+"'>"+libaries[i]['name']+"</option>");
+			}
+		}
+		$("#class").change(function(){
+			switch($("#class").val()){
+			case "book":
+				$("#book").show();
+				$("#magazine").hide();
+				$("#common").show();
+				break;
+			case "magazine":
+				$("#book").hide();
+				$("#magazine").show();
+				$("#common").show();
+				break;
+			default:
+				$("#book").hide();
+				$("#magazine").hide();
+				$("#common").hide();
+				break;
+			}
+		});
+		$("#goSubmit").click(function(){
+			
+		});
+	})
+</script>
+</head>
+<body>
+	<form id="formAddBook">
+		<p>类型:<select id="class">
+			<option value="">请选择……</option>
+			<option value="book">书籍</option>
+			<option value="magazine">期刊</option>
+		</select></p>
+		<div id="common">
+			<p>ISBN/ISSN:<input type="text" id="ISBN"/></p>
+			<p>编码:<input type="text" id="codeBar"/></p>
+			<p>标题:<input type="text" id="title"/></p>
+			<p>副标题:<input type="text" id="subtitle"/></p>
+			<p>页数:<input type="text" id="page"/></p>
+			<p>分类:<select id="type">
+				<option value="">请选择……</option>
+			</select></p>
+			<p>出版社:<select id="press">
+				<option value="">请选择……</option>
+			</select></p>
+			<p>藏馆:<select id="libary">
+				<option value="">请选择……</option>
+			</select></p>
+			<p>语言:<select id="language">
+				<option value="中文">中文</option>
+				<option value="英文">英文</option>
+				<option value="法文">法文</option>
+				<option value="德文">德文</option>
+				<option value="日文">日文</option>
+				<option value="西班牙文">西班牙文</option>
+				<option value="葡萄牙文">葡萄牙文</option>
+				<option value="其他">其他</option>
+			</select></p>
+			<p>出版日期:<input type="date" id="datePublish"/></p>
+		</div>
+		<div id="book">
+			
+			
+			<p>作者:<input type="text" id="author"/></p>
+			<p>译者:<input type="text" id="tanslator"/></p>
+			
+			<p>版数:<input type="text" id="edition"/></p>
+			<p>编:<input type="text" id="author"/></p>
+			<p>卷:<input type="text" id="author"/></p>
+			<p>册:<input type="text" id="author"/></p>
+		</div>
+		<div id="magazine">
+			<p>出版周期:<input type="text" id="periodPublish"/></p>
+			<p>
+		</div>
+	</form>
+</body>
+</html>

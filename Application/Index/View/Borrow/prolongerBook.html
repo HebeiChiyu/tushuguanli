@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#serialNumber").keypress(function(e){
+		serialNumber = $("#serialNumber").val();
+		if(serialNumber){
+			$("#doProlonger").attr("disabled",false);
+		}else{
+			$("#doProlonger").attr("disabled",true);
+			return;
+		}
+		if(e.keyCode != 13){
+			return;
+		}
+		doProlonger();
+	});
+	$("#doProlonger").click(function(){
+		serialNumber = $("#serialNumber").val();
+		if(serialNumber){
+			$("#doProlonger").attr("disabled",false);
+		}else{
+			$("#doProlonger").attr("disabled",true);
+			return;
+		}
+		doProlonger();
+	});
+});
+function doProlonger(){
+	$.ajax({
+		url:"{:U('/API/borrow/prolongerBook')}",
+		type:"POST",
+		async:false,
+		dataType:"json",
+		data:{
+			serialNumber:$("#serialNumber").val()
+		},
+		success:function(result){
+			console.log(result);
+			if(result.status != "ok"){
+				alert("失败");
+				return;
+			}
+			alert("成功");
+			$("#serialNumber").val("");
+		}
+	});
+}
+</script>
+</head>
+<body>
+	<input type="text" name="serialNumber" id="serialNumber"/><button id="doProlonger">延期</button>
+</body>
+</html>

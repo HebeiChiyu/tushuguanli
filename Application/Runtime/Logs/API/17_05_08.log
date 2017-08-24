@@ -1,0 +1,747 @@
+[ 2017-05-08T10:09:33+08:00 ] ::1 /tushuguanli/API/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T10:09:39+08:00 ] ::1 /tushuguanli/API/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_admin` WHERE `login` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin_classified` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_admin_classified` WHERE `admin` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: statusLock D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\LoginController.class.php 第 29 行.
+SQL: UPDATE `book_admin` SET `code`='d1d7015fbf729403d7329560afecff1d' WHERE `id` = 1 [ RunTime:0.0780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-08T10:49:39+08:00 ] ::1 /tushuguanli/API/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T11:24:43+08:00 ] ::1 /tushuguanli/API/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T11:24:45+08:00 ] ::1 /tushuguanli/API/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-08T11:24:49+08:00 ] ::1 /tushuguanli/API/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book_admin` WHERE `login` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin_classified` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book_admin_classified` WHERE `admin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: statusLock D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\LoginController.class.php 第 29 行.
+SQL: UPDATE `book_admin` SET `code`='b1adda14824f50ef24ff1c05bb66faf3' WHERE `id` = 1 [ RunTime:0.0624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:22:07+08:00 ] ::1 /tushuguanli/API/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-08T14:22:15+08:00 ] ::1 /tushuguanli/API/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `book_admin` WHERE `login` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin_classified` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book_admin_classified` WHERE `admin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: statusLock D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\LoginController.class.php 第 29 行.
+SQL: UPDATE `book_admin` SET `code`='b994697479c5716eda77e8e9713e5f0f' WHERE `id` = 1 [ RunTime:0.0624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:23:59+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: magazine D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\BookController.class.php 第 762 行.
+
+[ 2017-05-08T14:24:34+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: magazine D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\BookController.class.php 第 762 行.
+
+[ 2017-05-08T14:25:26+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T14:25:45+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T14:26:05+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: magazine D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\BookController.class.php 第 762 行.
+
+[ 2017-05-08T14:26:20+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T14:26:25+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T14:26:36+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `book_magazine` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-08T14:27:16+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T14:29:01+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_magazine` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T14:29:15+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:29:27+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:30:09+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:33:34+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = 'qsdf' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'book' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND book='2' ) 
+ERR: 1054:Unknown column 'book' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND book='2' ) 
+
+[ 2017-05-08T14:34:05+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = 'qsdf' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'book' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND book='2' ) 
+ERR: 1054:Unknown column 'book' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND book='2' ) 
+
+[ 2017-05-08T14:34:18+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = 'qsdf' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0030s ]
+ERR: 1054:Unknown column 'book' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND book='2' ) 
+ERR: 1054:Unknown column 'book' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND book='2' ) 
+
+[ 2017-05-08T14:34:52+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-08T14:34:58+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = 'qsdf' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'book' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND book='2' ) 
+ERR: 1054:Unknown column 'book' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND book='2' ) 
+
+[ 2017-05-08T14:35:43+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T14:36:01+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = 'qsdf' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND magazine='2' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_libary` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book_libary` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: book D:\XAMPP\htdocs\tushuguanli\Application\Common\Model\MagazineModel.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T14:36:10+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = 'qsdf' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND magazine='2' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_libary` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_libary` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: book D:\XAMPP\htdocs\tushuguanli\Application\Common\Model\MagazineModel.class.php 第 63 行.
+SQL: SELECT * FROM `book_magazine` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T14:36:34+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = 'qsdf' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND magazine='2' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_libary` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_libary` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: book D:\XAMPP\htdocs\tushuguanli\Application\Common\Model\MagazineModel.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T14:36:44+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = 'qsdf' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND magazine='2' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_libary` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_libary` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: book D:\XAMPP\htdocs\tushuguanli\Application\Common\Model\MagazineModel.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T14:36:49+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = 'qsdf' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND magazine='2' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_libary` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book_libary` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: book D:\XAMPP\htdocs\tushuguanli\Application\Common\Model\MagazineModel.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:37:49+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = 'qsdf' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND magazine='2' )  [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `book_libary` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `book_libary` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: book D:\XAMPP\htdocs\tushuguanli\Application\Common\Model\MagazineModel.class.php 第 64 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-08T14:38:59+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = 'qsdf' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND magazine='2' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_libary` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_libary` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-08T15:15:07+08:00 ] ::1 /tushuguanli/API/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T15:15:16+08:00 ] ::1 /tushuguanli/API/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_admin` WHERE `login` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin_classified` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_admin_classified` WHERE `admin` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: statusLock D:\XAMPP\htdocs\tushuguanli\Application\API\Controller\LoginController.class.php 第 29 行.
+SQL: UPDATE `book_admin` SET `code`='aa68c75c4a77c87f97fb686b2f068676' WHERE `id` = 1 [ RunTime:0.0750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T15:15:19+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = 'qsdf' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND magazine='2' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_libary` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_libary` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T15:15:35+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = 'qsdf' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND magazine='2' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_libary` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_libary` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T15:15:48+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = 'dsfgdf' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND magazine='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_libary` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_libary` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T15:16:23+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = 'dsfgdf' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND magazine='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_libary` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_libary` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T15:18:31+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = 'dsfgdf' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND magazine='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_libary` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_libary` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T15:18:41+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = 'dsfgdf' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND magazine='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_libary` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_libary` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-08T15:19:09+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = '1234567890123' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book_magazine` WHERE `codeBar` = '1234567890123' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND magazine='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_libary` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_libary` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-08T15:19:47+08:00 ] ::1 /tushuguanli/API/Book/getMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book_magazine` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_magazine` WHERE `ISSN` = '1234567890123' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book_magazine` WHERE `codeBar` = '1234567890123' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_type` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_press` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_press` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_admin` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_magazine_period` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_magazine_period` WHERE ( 1=1 AND magazine='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_libary` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book_libary` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

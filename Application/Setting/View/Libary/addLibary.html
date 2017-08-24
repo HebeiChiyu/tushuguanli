@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#formLibary").submit(function(e){
+		e.preventDefault();
+		name = $("#name").val();
+		if(!name){
+			$("#checkName").html("请输入名称");
+			return;
+		}else{
+			$("#checkName").html("");
+		}
+		tel = $("#tel").val();
+		if(!tel){
+			$("#checkTel").html("请输入电话");
+			return;
+		}else{
+			$("#checkTel").html("");
+		}
+		email = $("#email").val();
+		etc = $("#etc").val();
+		$.ajax({
+			url:"{:U('/API/setting/addLibary')}",
+			dataType:"json",
+			type:"POST",
+			async:false,
+			data:{
+				name:name,
+				tel:tel,
+				email:email,
+				etc:etc
+			},
+			success:function(result){
+				if(result.status != "ok"){
+					alert("失败");
+					return;
+				}
+				alert("成功");
+				$("#formLibary")[0].reset();
+				$("#checkName").html("");
+				$("#checkTel").html("");
+			},
+			error:function(){
+				alert("失败");
+			}
+		});
+	});
+});
+</script>
+</head>
+<body>
+	<form action="" method="POST" id="formLibary">
+		<p>名称:<input type="text" name="name" id="name"/><span id="checkName"></span></p>
+		<p>电话:<input type="tel" name="tel" id="tel"/><span id="checkTel"></span></p>
+		<p>邮箱:<input type="email" name="email" id="email"/></p>
+		<p>备注:<textarea name="etc" id="etc"></textarea>
+		<p><input type="submit" /></p>
+	</form>
+</body>
+</html>

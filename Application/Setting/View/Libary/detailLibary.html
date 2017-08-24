@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	id = {#id};
+	$.ajax({
+		url:"{:U('/API/setting/getLibaryById')}",
+		type:"POST",
+		dataType:"json",
+		async:false,
+		data:{
+			id:id
+		},
+		success:function(result){
+			if(result.status != "ok"){
+				alert("失败");
+				return;
+			}
+			libary = result.libary;
+			//TODO
+			$('#result').html("获取成功");
+		},
+		error:function(){
+			alert("失败");
+		}
+	});
+});
+</script>
+</head>
+<body>
+	<div id="result">
+		
+	</div>
+</body>
+</html>

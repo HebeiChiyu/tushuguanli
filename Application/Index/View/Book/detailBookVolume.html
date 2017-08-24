@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	volume = null;
+	$.ajax({
+		url:"{:U('/API/book/getVolume')}",
+		dataType:"json",
+		async:false,
+		type:"POST",
+		data:{
+			id:"{$id}",
+			class:"book"
+		},
+		success:function(result){
+			console.log(result);
+		},
+		error:function(){
+			alert("失败");
+		}
+	})
+});
+</script>
+</head>
+<body>
+
+</body>
+</html>
